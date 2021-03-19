@@ -55,7 +55,9 @@ if (localStorage.getItem('list')) {
 	countLeft = 0;
 	countCompl = 0;
 }	
-if (countLeft) {items.innerHTML = countLeft}
+if (countLeft) {
+	items.innerHTML = countLeft;
+}
 
 newTodo.addEventListener('click',function() {
 	newTodo.classList.toggle('circle-todo');
