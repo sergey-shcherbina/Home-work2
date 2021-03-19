@@ -1,25 +1,25 @@
 let imgDark = document.querySelector('.img-dark'),
-		imglight = document.querySelector('.img-light'),
-		sun = document.querySelector('.sun'),
-		moon = document.querySelector('.moon'),
-		modalBack = document.querySelector('.modal-back'),
-		light = document.querySelector('.light'),
-		dark = document.querySelector('.dark'),
-		newTodo = document.querySelector('#new-todo'), 
-    input = document.querySelector('input'),
-	  gr = document.querySelector('.gr-new'),
-	  typing = document.querySelector('.typing'),
-	  ul = document.querySelector('ul'), 
-		active = document.querySelector('#active'),
-		all= document.querySelector('#all'),
-		compl = document.querySelector('#compl'),
-    clear = document.querySelector('#clear'),
-	  items = document.querySelector('.items'),
-    allItems = document.querySelector('.all-items'),
-		activeItems = document.querySelector('.active-items'),
-		complItems = document.querySelector('.compl-items'),
-		dropElem = document.querySelector('.end'),
-		dragElem = document.querySelector('.drag');
+	imglight = document.querySelector('.img-light'),
+	sun = document.querySelector('.sun'),
+	moon = document.querySelector('.moon'),
+	modalBack = document.querySelector('.modal-back'),
+	light = document.querySelector('.light'),
+	dark = document.querySelector('.dark'),
+	newTodo = document.querySelector('#new-todo'), 
+  input = document.querySelector('input'),
+	gr = document.querySelector('.gr-new'),
+	typing = document.querySelector('.typing'),
+	ul = document.querySelector('ul'), 
+	active = document.querySelector('#active'),
+	all= document.querySelector('#all'),
+	compl = document.querySelector('#compl'),
+  clear = document.querySelector('#clear'),
+	items = document.querySelector('.items'),
+  allItems = document.querySelector('.all-items'),
+	activeItems = document.querySelector('.active-items'),
+	complItems = document.querySelector('.compl-items'),
+	dropElem = document.querySelector('.end'),
+	dragElem = document.querySelector('.drag');
 
 let countAll = 0, li, todo, section, div, button, list, check, countLeft, countCompl;
 
@@ -67,7 +67,9 @@ newTodo.addEventListener('click',function() {
 input.addEventListener('keypress',function(event) {
 	if (event.keyCode === 13) {
 		countLeft++;
-		if (countLeft) {items.innerHTML = countLeft}
+		if (countLeft) {
+			items.innerHTML = countLeft;
+		}
 		allItems.innerHTML = '';
 		complItems.innerHTML = '';
 		activeItems.innerHTML = '';
@@ -100,10 +102,10 @@ ul.addEventListener('click', function func(event) {
 		event.target.classList.add('border-blue');
 		active.classList.add('bright');
 		activeItems.innerHTML = '';
-
 		if (!event.target.classList.contains('check-back')) {
 			event.target.parentElement.nextElementSibling.classList.remove('h');        
 		}
+
 	} else if (event.target.tagName === 'INPUT') {
 		event.target.classList.remove('bright');
 		event.target.classList.add('to-compl');
