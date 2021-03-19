@@ -154,8 +154,6 @@ all.addEventListener('click', function() {
 	}
 })
 
-
-
 active.addEventListener('click', function() {
 	let elems = document.querySelectorAll('.border-blue');
 	let i = elems.length;
