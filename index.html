@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<!-- displays site properly based on user's device -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="light.css">
+  <title>Practice #2 | Todo app</title>
+
+</head>
+<body>
+  <div class="test">
+    <div class="bg">   
+      <div class="img-dark">
+        <img src="./images/bg-desktop-dark.jpg" height="370px" width='1440px'>
+      </div>
+      <div class="img-light h">
+        <img src="./images/bg-desktop-light.jpg" height="370px" width='1440px'>
+      </div>
+      <div class="todo">
+        <span class="white">T O D O</span>
+        <div class="sun">
+            <img src="./images/icon-sun.svg" width="32px;" height="32px;">
+        </div>
+        <div class="moon h">
+          <img src="./images/icon-moon.svg" width="32px;" height="32px;">
+        </div>
+      </div>
+      <div class="block mb">
+        <div id="new-todo" class="circle"></div>
+        <span class="gr-new">Create a new todo...</span>
+        <div class="typing h">
+          <span class="gr-input">Currently typing</span> 
+          <input class="new-todo gr-input">
+        </div>
+      </div>
+      <ul></ul>
+     
+      <div class="block end">
+        <div class="all"><span class="items all"></span>items left</div>
+        <div id="all"class="all all-blue"><span class="all-items all"></span>All</div>
+        <div id="active" class="all"><span class="active-items all"></span>Active</div>
+        <div id="compl" class="all"><span class="compl-items all"></span>Completed</div>
+        <div id="clear" class="all mr">Clear Completed</div>
+      </div>
+      <div class="drag" draggable="true">Drag and drop to reorder list</div>
+		</div> 
+	</div>	
+	<div class=" back modal-back mod-back">
+		<div class="modal-window">
+			<img src=./design/desktop-preview.jpg>
+		</div>
+		<div class="preview">
+			<div class="dark">click for Dark Theme</div>	
+			<div  class="light">click for Light Theme</div>	
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>	  

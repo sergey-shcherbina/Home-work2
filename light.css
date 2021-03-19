@@ -1,0 +1,128 @@
+.bg {
+    display:flex; 
+    height: 100vh; 
+    max-width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    background-color:hsl(233, 11%, 84%); 
+}
+.block {
+    background-color:hsl(236, 33%, 92%);
+    width: 500px;
+    height: 65px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.circle {
+    cursor: pointer;
+    margin: 17px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(236, 9%, 61%)
+}
+.gr-input {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: hsl(236, 9%, 61%);
+    border-right: solid hsl(220, 98%, 61%);
+    padding-right: 8px;
+}
+.gr-new {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: hsl(236, 9%, 61%);
+    margin-left: 17px;
+    cursor: pointer;
+}
+.new-todo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    height: 55px;
+    width: 250px;
+    margin-left: 17px;
+    background-color: hsl(236, 33%, 92%);
+    border:  solid hsl(236, 33%, 92%);
+}
+.circle-todo{
+    border: solid hsl(235, 19%, 35%);
+}
+.border-blue {
+    border: solid hsl(220, 98%, 61%);
+} 
+.gr {
+    color: hsl(236, 9%, 61%);
+    margin-left: 17px;
+    width: 380px;
+    cursor: pointer;
+}
+.all {
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer; 
+    color: hsl(236, 9%, 61%);
+    margin-right: 10px;
+}
+.bright {
+    color: hsl(235, 19%, 35%);
+}
+ .end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+.drag {
+    margin-top: 30px;
+    cursor: pointer; 
+    color: hsl(236, 9%, 61%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.to-compl {
+    text-decoration:line-through ;
+    color: hsl(236, 9%, 61%);
+}
+.check-back {
+    background: linear-gradient(to bottom, hsl(192, 100%, 67%), hsl(280, 87%, 65%)); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    border: solid hsl(236, 33%, 92%);
+}
+ .all-blue { 
+    color: hsl(220, 98%, 61%);
+ }  
+.gray {
+    color:  hsl(236, 9%, 61%);
+}
+.pad {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: hsl(236, 33%, 92%);
+    border: solid hsl(236, 33%, 92%);
+    overflow: hidden;
+}
+.block-bb {
+    background-color: hsl(236, 33%, 92%);
+    border-bottom: 1px solid hsl(236, 9%, 61%);
+    width: 500px;
+    height: 65px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.d-flex {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}  
+.g-button {
+    background-color :hsl(236, 33%, 92%);
+    border: solid hsl(236, 33%, 92%);
+    font-size: 30px;
+    color: hsl(234, 11%, 52%);
+}
+

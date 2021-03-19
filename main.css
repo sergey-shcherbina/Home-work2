@@ -1,0 +1,97 @@
+.h {
+    display: none;
+}
+.test {
+    height: 100%;
+    min-height: 100vh;
+    max-width: 1440px;
+}
+.img-dark {
+    max-width: 1440px;
+}
+.img-light {
+    max-width: 1440px;
+}
+.todo {
+    width: 500px;
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    margin-top: -240px;
+}
+.white {
+    color: white;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.mb {
+    margin-bottom: 25px;
+} 
+ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+ .items {
+    margin-left: 10px;
+}
+.all-blue {
+    color: hsl(220, 98%, 61%);
+}  
+.d-flex {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.check {
+    width: 20px;
+} 
+.back {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.modal-back {
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+.mod-back {
+     opacity: 0;
+    z-index: -1;
+}
+.dark {
+    cursor: pointer;
+    margin-top: -520px; 
+    margin-left: 380px;
+    color: white;
+    border: 1px solid white;
+    height: 20px;
+    border-radius: 10px;
+    padding: 8px;
+}   
+.light {
+    cursor: pointer;
+    margin-top: -650px; 
+    margin-left: -70px;
+    color: white;
+    border: 1px solid white;
+    height: 20px;
+    border-radius: 10px;
+    padding: 8px;
+}   
+.modal-window {
+    width: 1000px;
+    height: 750px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, hsl(192, 100%, 67%), hsl(280, 87%, 65%)); 
+    margin: 50px 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.preview {
+    display:flex;
+    justify-content: flex-start;
+}  
